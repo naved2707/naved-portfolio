@@ -17,6 +17,8 @@
   .button-primary { position: relative; overflow: hidden; isolation: isolate; }
   .button-primary::after { content: ''; position: absolute; inset: 0; width: 45%; background: linear-gradient(90deg, transparent, #ffffff24, transparent); transform: translateX(-150%) skewX(-20deg); pointer-events: none; }
   .button-primary:hover::after { animation: button-glint .7s ease-out; }
+  .project-image-button:hover .project-preview > img, .project-image-button:focus-visible .project-preview > img { transform: scale(1.025); filter: brightness(.94); }
+  .featured .project-image-button:hover .project-preview > img, .featured .project-image-button:focus-visible .project-preview > img { transform: rotate(0) scale(1); }
   .architecture-row > div { transition: transform .2s, border-color .2s; }
   .architecture-row > div:hover { transform: translateY(-3px); border-color: var(--accent); }
   .contact-symbol:hover svg { transform: translate(3px, -3px); transition: transform .2s; }

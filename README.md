@@ -75,7 +75,7 @@ Start with **`src/data/portfolioData.js`**. It imports the other data files and 
 
 External links are rendered only when populated. Never put `#` in place of an unknown URL. Use complete `https://` URLs. GitHub project source buttons and live-demo buttons appear automatically when their values are supplied.
 
-The profile uses an optimized illustrated dummy avatar, labeled as such. Set `portfolio.profile.placeholder=false` when replacing it with your professional photo. The MN monogram remains an image-load fallback. Project 04 is **Naved Portfolio**, replacing the earlier CMS entry. Its case study includes actual dark-homepage and light-contact screenshots, with details about Web3Forms email submission, WhatsApp click-to-chat, themes, responsive layouts, and keyboard navigation. Other project visuals remain labeled **Interface concept**; they are illustrative UI previews rather than actual screenshots. Review their editable descriptions before sending the portfolio to recruiters. Map + Excel remains marked **Planned exploration**.
+The profile uses the original full-resolution professional photo at `public/images/Naved-proffesional-Photo.png`, displayed at its original aspect ratio so the full head and upper body remain visible. The MN monogram remains an image-load fallback. Project 04 is **Naved Portfolio**, replacing the earlier CMS entry. Its case study includes actual dark-homepage and light-contact screenshots, with details about Web3Forms email submission, WhatsApp click-to-chat, themes, responsive layouts, and keyboard navigation. Other project visuals remain labeled **Interface concept**; they are illustrative UI previews rather than actual screenshots. Review their editable descriptions before sending the portfolio to recruiters. Map + Excel remains marked **Planned exploration**.
 
 The résumé intentionally contains no invented email, phone, usernames, employment, metrics, or awards. Replace it with your final contact-complete résumé before a public job application launch.
 
@@ -198,7 +198,7 @@ See [validation notes](docs/VALIDATION.md) for checks completed and remaining in
 Available in the project after applying the project-04 update:
 
 - `docs/screenshots/contact-dark.jpg`: the updated contact section from the browser review.
-- `public/images/avatar-placeholder.webp`: optimized, clearly labeled dummy avatar.
+- `public/images/Naved-proffesional-Photo.png`: original full-resolution professional photo used in the profile.
 - `public/images/projects/naved-portfolio-overview.jpg`: actual portfolio homepage in dark mode.
 - `public/images/projects/naved-portfolio-contact.jpg`: actual contact section in light mode, including the Send Message form and WhatsApp link.
 - `public/resume.pdf`: the existing draft résumé; replace it with your final résumé.
@@ -207,14 +207,14 @@ Available in the project after applying the project-04 update:
 
 ![Naved Portfolio contact section in light mode](public/images/projects/naved-portfolio-contact.jpg)
 
-The remaining project visuals are labeled interface concepts. No professional photo has been added. These screenshots show the interface; they do not establish receipt of a test email in Gmail.
+The remaining project visuals are labeled interface concepts. These screenshots show the interface; they do not establish receipt of a test email in Gmail.
 
 ## Folder structure
 
 ```text
 naved-portfolio/
   public/
-    images/avatar-placeholder.webp
+    images/Naved-proffesional-Photo.png
     images/projects/naved-portfolio-overview.jpg
     images/projects/naved-portfolio-contact.jpg
     licenses/                    # Bundled font licenses
@@ -263,7 +263,7 @@ naved-portfolio/
 
 ## Design and customization
 
-Change the two theme token sets in `variables.css` for a new palette. `components.css` contains labeled sections; responsive rules sit near its end. Main content widths use a shared container, grid/flex layouts, fluid heading sizes, and explicit small-screen compositions. Fonts are bundled from Fontsource and require no Google Fonts request. Replace the dummy avatar and project screenshot paths through the central configuration without changing components.
+Change the two theme token sets in `variables.css` for a new palette. `components.css` contains labeled sections; responsive rules sit near its end. Main content widths use a shared container, grid/flex layouts, fluid heading sizes, and explicit small-screen compositions. Fonts are bundled from Fontsource and require no Google Fonts request. Update the profile photo and project screenshot paths through the central configuration without changing components.
 
 Animations use CSS transforms/opacity and IntersectionObserver. OS reduced-motion preference removes motion, and touch layouts disable ambient floating. Native scrolling is retained. Rotating roles stop while the document is hidden and respect reduced motion. All content remains visible if IntersectionObserver is unavailable.
 

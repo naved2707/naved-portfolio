@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="profile-card">
           <div className="profile-top"><Code2 size={20} /><span>DESIGN MINDED. CODE DRIVEN.</span><span className="profile-corner">↗</span></div>
           <div className="portrait-area">
-            {portfolio.profile.image && !broken ? <img className="profile-photo" src={portfolio.profile.image} alt={portfolio.profile.alt} width="400" height="420" onError={() => setBroken(true)} /> : <div className="monogram-portrait" aria-label="MN monogram, profile photo placeholder"><span className="orbit orbit-one" /><span className="orbit orbit-two" /><span className="monogram-text">mn<span>.</span></span><span className="portrait-caption">A LITTLE CURIOUS. ALWAYS BUILDING.</span></div>}
+            {portfolio.profile.image && !broken ? <img className="profile-photo" src={portfolio.profile.image} alt={portfolio.profile.alt} width="1086" height="1448" onError={() => setBroken(true)} /> : <div className="monogram-portrait" aria-label="MN monogram, profile photo placeholder"><span className="orbit orbit-one" /><span className="orbit orbit-two" /><span className="monogram-text">mn<span>.</span></span><span className="portrait-caption">A LITTLE CURIOUS. ALWAYS BUILDING.</span></div>}
             <span className="floating-tech react-tech" aria-hidden="true"><Atom size={25} /></span><span className="floating-tech js-tech" aria-hidden="true"><Braces size={23} /></span>
             {portfolio.profile.placeholder && <span className="avatar-label">ILLUSTRATED AVATAR</span>}
           </div>

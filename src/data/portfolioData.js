@@ -19,7 +19,7 @@ export const portfolio = {
   },
   whatsapp: { number: '+917972757620', label: '+91 79727 57620', message: 'Hi Naved, I found your portfolio and would like to connect.' },
   resume: { url: '/resume.pdf', filename: 'Mohammad-Naved-Resume.pdf', enabled: true },
-  profile: { image: '/images/avatar-placeholder.webp', alt: 'Illustrated avatar used as a temporary profile image', placeholder: true },
+  profile: { image: '/images/Naved-proffesional-Photo.png', alt: 'Mohammad Naved, Front-End Developer', placeholder: false },
   availability: { enabled: true, text: 'Open to front-end opportunities' },
   contact: {
     provider: 'web3forms',

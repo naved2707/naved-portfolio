@@ -26,4 +26,4 @@ The code matches the published application commit above. Documentation has been 
 
 ## Personalization still available
 
-Replace the draft résumé with your final version, the dummy avatar with your professional photo, and project interface concepts with real screenshots and repository/demo links when you provide them.
+Replace the draft résumé with your final version, and replace project interface concepts with real screenshots and repository/demo links when you provide them. The professional photo is configured in the profile.
