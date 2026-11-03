@@ -17,7 +17,7 @@ export default function Navbar({ onCommand }) {
       <div className="nav-actions">
         <button className="icon-button command-trigger" onClick={onCommand} aria-label="Open command palette" title="Command palette (Ctrl or Cmd + K)"><Command size={18} /></button>
         <ThemeToggle />
-        <ResumeLink className="button button-nav">Résumé</ResumeLink>
+        <ResumeLink className="button button-nav">Resume</ResumeLink>
         <button className="icon-button mobile-toggle" onClick={() => setOpen(true)} aria-label="Open navigation" aria-expanded={open} aria-haspopup="dialog"><Menu size={23} /></button>
       </div>
     </div>
